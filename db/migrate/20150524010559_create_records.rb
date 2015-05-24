@@ -1,6 +1,6 @@
-class CreateTopRecords < ActiveRecord::Migration
+class CreateRecords < ActiveRecord::Migration
   def change
-    create_table :top_records do |t|
+    create_table :records do |t|
       t.string :interpret
       t.string :album
       t.string :single
