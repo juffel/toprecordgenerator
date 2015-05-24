@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20150524010559) do
 
-  create_table "records", force: true do |t|
+  create_table "top_records", force: true do |t|
     t.string   "interpret"
     t.string   "album"
     t.string   "single"
