@@ -1,6 +1,6 @@
 class TopRecord < ActiveRecord::Base
   # initialize new TopRecords with random values
-  after_initialize do |r|
+  after_create do |r|
     r.interpret = self.class.get_rnd_title
     r.album = self.class.get_rnd_title 
     r.single = self.class.get_rnd_title
