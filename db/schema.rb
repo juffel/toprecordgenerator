@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20150524010559) do
     t.string   "interpret"
     t.string   "album"
     t.string   "single"
-    t.string   "image_url"
+    t.string   "image_url",  limit: 2083
     t.datetime "created_at"
     t.datetime "updated_at"
   end

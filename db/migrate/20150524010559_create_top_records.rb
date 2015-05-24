@@ -4,7 +4,8 @@ class CreateTopRecords < ActiveRecord::Migration
       t.string :interpret
       t.string :album
       t.string :single
-      t.string :image_url
+      t.string :image_url, :limit => 2083
+      # src for this size-limit: http://stackoverflow.com/a/219664/1870317
 
       t.timestamps
     end
