@@ -1,21 +1,20 @@
-<h1>Title</h1>
 <table>
     <tbody>
         <tr>
             <td><b>Interpret:</b></td>
-            <td><%= @interpret %></td>
+            <td><%= @record.interpret %></td>
         </tr>
         <tr>
             <td><b>Album:</b></td>
-            <td><%= @album %></td>
+            <td><%= @record.album %></td>
         </tr>
         <tr>
             <td><b>Single:</b></td>
-            <td><%= @single %></td>
+            <td><%= @record.single %></td>
         </tr>
         <tr>
             <td><b>Cover:</b></td>
-            <td><%= image_tag(@cover_url) %></td>
+            <td><%= image_tag(@record.image_url) %></td>
         </tr>
     </tbody>
 </table>
