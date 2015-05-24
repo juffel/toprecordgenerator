@@ -1,2 +1,22 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<h1>Title</h1>
+<table>
+    <tbody>
+        <tr>
+            <td><b>Interpret:</b></td>
+            <td><%= @interpret %></td>
+        </tr>
+        <tr>
+            <td><b>Album:</b></td>
+            <td><%= @album %></td>
+        </tr>
+        <tr>
+            <td><b>Single:</b></td>
+            <td><%= @single %></td>
+        </tr>
+        <tr>
+            <td><b>Cover:</b></td>
+            <td><%= image_tag(@cover_url) %></td>
+        </tr>
+    </tbody>
+</table>
+
