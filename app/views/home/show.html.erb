@@ -1,3 +1,10 @@
+<div id="cover_container">
+    <%= image_tag(@record.image_url)%>
+    <div id="interpret"><%= @record.interpret %></div>
+    <div id="album"><%= @record.album %></div>
+    <div id="single"><%= @record.single %></div>
+</div>
+<hr>
 <%= link_to "neu generieren", controller: "home", action: "new" %>
 <table>
     <tbody>

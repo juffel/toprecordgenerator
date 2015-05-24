@@ -1,3 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#cover_container {
+    position: relative;
+
+    #interpret {
+        position: absolute;
+        top: 0;
+        font: 100px bold arial, sans-serif;
+        color: blue;
+    }
+}
+
